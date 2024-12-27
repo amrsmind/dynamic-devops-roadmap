@@ -36,9 +36,10 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
+          exclude: ['**/module-05/**', '**/module-04/**'],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap/tree/main',
+          editUrl: 'https://github.com/amrsmind/dynamic-devops-roadmap/tree/main',
         },
         blog: false,
         theme: {
